@@ -3,15 +3,15 @@ def map(source_array)
   source_array.map { |x| -x }
 end
 
-def map_to_no_change(source_array)
+def map(source_array)
   source_array.map { |x| x }
 end
 
-def map_to_double(source_array)
+def map(source_array)
   source_array.map { |x| x*2 }
 end
 
-def map_to_square(source_array)
+def map(source_array)
   source_array.map { |x| x**2 }
 end
 
